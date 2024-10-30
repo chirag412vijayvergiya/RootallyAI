@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.exercise-list {
+  max-height: 400px; /* Set your desired max height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  padding: 8px; /* Optional: Add some padding */
+}

@@ -1,0 +1,137 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Lower Body",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Squats",
+          "sets": 3,
+          "reps": 10,
+          "holdTime": 30,
+          "side": "Left"
+        },
+        {
+          "id": 2,
+          "name": "Lunges",
+          "sets": 3,
+          "reps": 12,
+          "holdTime": 0,
+          "side": "Right"
+        },
+        {
+          "id": 3,
+          "name": "Leg Press",
+          "sets": 4,
+          "reps": 10,
+          "holdTime": 0,
+          "side": "Both"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Upper Body",
+      "exercises": [
+        {
+          "id": 4,
+          "name": "Push-ups",
+          "sets": 3,
+          "reps": 15,
+          "holdTime": 0,
+          "side": "Both"
+        },
+        {
+          "id": 5,
+          "name": "Pull-ups",
+          "sets": 3,
+          "reps": 8,
+          "holdTime": 0,
+          "side": "Both"
+        },
+        {
+          "id": 6,
+          "name": "Shoulder Press",
+          "sets": 3,
+          "reps": 12,
+          "holdTime": 0,
+          "side": "Both"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Core",
+      "exercises": [
+        {
+          "id": 7,
+          "name": "Crunches",
+          "sets": 3,
+          "reps": 20,
+          "holdTime": 0,
+          "side": "Both"
+        },
+        {
+          "id": 8,
+          "name": "Plank",
+          "sets": 3,
+          "reps": 0,
+          "holdTime": 60,
+          "side": "Both"
+        },
+        {
+          "id": 9,
+          "name": "Russian Twists",
+          "sets": 3,
+          "reps": 15,
+          "holdTime": 0,
+          "side": "Both"
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "name": "Knee Rehab Program",
+      "exercises": [
+        {
+          "id": 221,
+          "name": "Lunges",
+          "sets": 3,
+          "reps": 12,
+          "holdTime": 0,
+          "side": "Right",
+          "daysOfWeek": [
+            "M",
+            "W",
+            "F"
+          ],
+          "sessionsPerDay": 2,
+          "therapistNotes": "Patient should focus on form."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Upper Body Strengthening",
+      "exercises": [
+        {
+          "id": 441,
+          "name": "Shoulder Press",
+          "sets": 3,
+          "reps": 12,
+          "holdTime": 0,
+          "side": "Right",
+          "daysOfWeek": [
+            "T",
+            "Th"
+          ],
+          "sessionsPerDay": 1,
+          "therapistNotes": "Focus on controlled movements."
+        }
+      ]
+    }
+  ]
+}
